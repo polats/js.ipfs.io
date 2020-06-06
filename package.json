@@ -89,13 +89,6 @@
     "svg-css-modules-loader": "^1.6.1",
     "svgo-loader": "^2.2.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "npm run test:e2e:hook"
-    }
-  },
   "lint-staged": {
     "*.js": [
       "eslint --fix",
