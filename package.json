@@ -19,6 +19,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
+    "start": "npm run build && npm run serve",
     "lint": "aegir lint && stylelint \"**/*.css\"",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
